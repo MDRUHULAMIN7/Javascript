@@ -1,0 +1,10 @@
+var a =41 
+var b =20
+if(a>b){
+    console.log('a is greater than b')
+}
+
+
+if(a%2!=0){
+    console.log('a is odd number')
+}

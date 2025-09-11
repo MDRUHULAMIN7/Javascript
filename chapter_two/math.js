@@ -1,0 +1,15 @@
+console.log(Math.PI)
+console.log(Math.E)
+console.log(Math.SQRT2)
+console.log(Math.SQRT1_2)
+
+const num = 4.56789
+console.log(Math.round(num))
+console.log(Math.floor(num))
+console.log(Math.ceil(num))
+console.log(Math.abs(num))
+console.log(Math.pow(2, 3))
+console.log(Math.sqrt(9))
+console.log(Math.max(1, 2, 3, 4, 5))
+console.log(Math.min(1, 2, 3, 4, 5))
+console.log(Math.random())
