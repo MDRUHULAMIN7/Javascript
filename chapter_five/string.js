@@ -76,3 +76,41 @@ var d = c.substring(4,6) // substring method ar madhome c variable 4 number char
 
 
 //console.log(c.charAt(5)) // ai chartAt method ar madhome koi character number dea oi character dekhte pari
+
+//console.log(c.indexOf('R')) // ai indexOf method ar madhome R ke search korar jonne index number dea diba
+
+//console.log(c.startsWith('I')) // ai startsWith method ar madhome I ke search korar jonne true false dea diba //true
+//console.log(c.endsWith('f')) // ai endsWith method ar madhome n ke search korar jonne true false dea diba //false 
+
+//console.log(c.includes('R')) // ai includes method ar madhome R ke search korar jonne true false dea diba //true
+
+//console.log(a.toUpperCase()) // ai toUpperCase method ar madhome a variable er modhe joto gulo character thakbe oigula capital letter kore diba
+//console.log(a.toLowerCase()) // ai toLowerCase method ar madhome a variable er modhe joto gulo character thakbe oigula small letter kore diba
+
+var str10 = '   I am Ruhul Amin   '
+//console.log(str10.trim()) // ai trim method ar madhome str10 variable er modhe joto gulo space thakbe oigula remove kore diba clear string diba
+
+var e = "i am ruhul how,are.you"
+// string array te rupantor korte use hoi 
+//console.log(e.split(" ")) //[ 'i', 'am', 'ruhul', 'how,are.you' ]
+//console.log(e.split(",")) //[ 'i am ruhul how', 'are.you' ]
+//console.log(e.split(".")) //[ 'i am ruhul how,are', 'you' ]
+
+/*  How to get string length */
+
+
+var f = "some string some"
+var res = (f.charAt(31)) //faka
+console.log(typeof(res)) // string
+
+var length = 0
+
+while(true){
+     console.log(f.charAt(length))
+    if(f.charAt(length) == ''){
+       
+        break
+    }
+    length++
+}
+console.log(length) // 20
