@@ -4,7 +4,7 @@
 
 //**What is Array **//
 
-//Array is a data structure where we can organise multiple data under a single variable
+//Array is a data structure where we can organise multiple data under a single variable.Array is also a mutable object
 
 //**Array Declaration **//
 
