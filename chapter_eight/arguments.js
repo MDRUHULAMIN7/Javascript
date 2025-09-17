@@ -34,8 +34,22 @@ function test() {
   console.log(arguments); // javascript arguments object keyword //[Arguments] { '0': 10, '1': 20, '2': 30 }
 //   console.log(JSON.stringify(arguments));
     //   console.log(typeof a);
-    for (var i = 0; i < arguments.length; i++){
-        console.log(arguments[i]);
+    var res = 0;
+    for (var i = 0; i < arguments.length; i++){ // jekono function er moddhe arguments object thake  ar  function ke kisuna kisu return kora jay tahole oi kisu return kore dekhabe ar return na korle baire access pawa jabe na ba kono variabl;e a strore kora jabe na tookhon  indefine dekhai 
+        res += arguments[i];
     }
+    return res;
 }
-test(10,20,30)
+ const result = test(10,20,30)
+console.log(result)
+ 
+function person(name, age) {
+  return {
+    Name: name,
+    Age: age,
+  };
+  console.log(name, age); // ar return statement jodi call hoa jai tahole oi block tar nicha ar jai thak na keno oita ar run hbe   na // Unreachable code detected.
+}
+
+var p1 = person('ruhul', 20)
+console.log(p1)
