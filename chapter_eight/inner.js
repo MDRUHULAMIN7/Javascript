@@ -9,6 +9,8 @@ function something(greet, name) { // outer function
     function getFirstName() {
         if (name) {
             return name.split(' ')[0]
+        } else {
+           return ''
         }
     }
 
@@ -16,4 +18,4 @@ function something(greet, name) { // outer function
     console.log(message)
 }
 
-something('hello', 'ruhul amin')
+something('hello',"ruhul amin")
