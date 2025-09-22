@@ -19,3 +19,4 @@ function something(greet, name) { // outer function
 }
 
 something('hello',"ruhul amin")
+ 
