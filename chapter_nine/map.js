@@ -3,7 +3,7 @@ var arr = [1, 2, 3, 4, 5]
 
 var aqrArr = arr.map(function (value) {
     
-    // return Math.random() * 100
+    // return Math.random() * 100 ss
     return value * 2
 })
 
