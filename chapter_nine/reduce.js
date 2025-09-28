@@ -9,6 +9,7 @@ var max = arr.reduce(function (prev, curr) {
 },0)
 // console.log(sum)
 // console.log(max)
+// console.log(max)
 
 function myReduce(arr, cb, acc) {
     
