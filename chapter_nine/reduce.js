@@ -10,6 +10,8 @@ var max = arr.reduce(function (prev, curr) {
 // console.log(sum)
 // console.log(max)
 // console.log(max)
+// console.log(max)
+// console.log(max)
 
 function myReduce(arr, cb, acc) {
     
