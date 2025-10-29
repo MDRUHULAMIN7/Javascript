@@ -1,0 +1,35 @@
+
+### JavaScript Engine: Ki, Keno, ar Kothay Use Hoy
+
+Akti JavaScript Engine holo ekta program, jar kaj JavaScript code ke machine code e convert kore computer execute korte pare. Joto gulo modern browser ache, shob guloi nijeder moto kore ekta JavaScript engine maintain kore.
+
+## Popular JavaScript Engine Gulo:
+
+1.  V8 Engine (Google)
+    Kothay Use Hoy: Google Chrome ar Node.js-e use kora hoise.
+
+    Specialty: Ei engine ta aktu performance ar speed er jononei sobcheye beshi popular. C++ diye develop kora.
+
+2.  SpiderMonkey Engine (Mozilla)
+    Kothay Use Hoy: Mozilla Firefox browser e use kora hoy.
+
+    Specialty: Ei engine ta holo world's first JavaScript engine. Ivvoke Brendan Eich je JavaScript create koren, tini ei engine tai banaisen.
+
+3.  JavaScriptCore (Apple)
+     Kothay Use Hoy: Apple Safari browser e use kora hoy.
+
+     Specialty: Apple er developer ra etake "Nitro" naam eo chine. Apple er shob product (Mac, iPhone, iPad) er Safari te ei engine tai use hoy.
+
+4.  Chakra Engine (Microsoft)
+     Kothay Use Hoy: Microsoft Edge browser (legacy version) e use kora hoto.
+
+     Specialty: Kintun aktu din age Microsoft nijeder Edge browser ta Chromium engine e niye nise. Tai aktu khon pore Microsoft ar Chakra engine develop korbena. Notun Edge o V8 engine e cholche.
+
+
+
+ V8 is the King: Jokhon backend e Node.js use kori, or mobile app e React Native use kori, shob jagai V8 engine ei cholche. Tai etar optimization ar new features niye development community te beshi kotha hoy.
+
+Engine bepare jante hobe keno? Jodi kono performance issue debug korte hoy, kivabe JavaScript code engine compile korche sheta bujhte help kore. Different engine different vabe optimize kore.
+
+Web Standard Maintain Korai Asol Kaj: Engine gulor implementation alada holeo, tara shobai ekta common "Web Standard" maintain kore chole. Tai amra shohojey eki JavaScript code Chrome, Firefox, Safari te likhte pari.
+
